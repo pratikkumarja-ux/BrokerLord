@@ -1,0 +1,15 @@
+{
+  "name": "brokerlord",
+  "version": "1.0.0",
+  "description": "BrokerLord — Curated static directory of free, open-source, and privacy-first internet resources built with VitePress.",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs --host 0.0.0.0 --port 5173",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs --host 0.0.0.0 --port 4173"
+  },
+  "devDependencies": {
+    "lucide-vue-next": "^1.0.0",
+    "vitepress": "^1.6.4"
+  }
+}
